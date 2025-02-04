@@ -2,9 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 .hero-section {
+  color: white;
   width: 100%;
   height: 100vh;
   background: url(./images/hero-banner.webp) no-repeat center;
@@ -17,10 +19,51 @@
   color: white !important;
 }
 
+.main_heading{
+  font-size: 3.9rem !important;
+  line-height: .95;
+}
+.tags{
+  border-bottom: 1px solid rgba(255, 255, 255, 0.404) ;
+}
+
+.tags span{
+  width: 130px;
+  height: 20px;
+}
+small{
+  font-size: 10px !important;
+}
+.tags span img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
 @media screen and (min-width : 992px) {
-  .collapse{
+  .collapse {
     position: absolute;
     right: 0;
   }
-  
+
+
+}
+
+@media screen and (max-width : 992px) {
+.startBtn {
+    position: absolute;
+    right: 130px;
+    top: 23px;
+    
+  }
+}
+@media screen and (max-width : 767px) {
+.startBtn {
+    position: absolute;
+    right: 100px;
+    top: 23px;
+    
+  }
 }
