@@ -20,7 +20,7 @@
 }
 
 .main_heading{
-  font-size: 3.9rem !important;
+  font-size: 4.3rem !important;
   line-height: .95;
 }
 .tags{
@@ -52,18 +52,31 @@ small{
 }
 
 @media screen and (max-width : 992px) {
+  
 .startBtn {
     position: absolute;
-    right: 130px;
-    top: 23px;
+    right: 70px;
+    top: 8px;
     
+  }
+  .main_heading{
+    font-size: 3.5rem !important;
   }
 }
 @media screen and (max-width : 767px) {
 .startBtn {
-    position: absolute;
-    right: 100px;
-    top: 23px;
-    
+    font-size: .9rem !important; 
+  }
+     .main_heading {
+       font-size: 3rem !important;
+     }
+}
+@media screen and (max-width : 675px){
+  .main_heading{
+    font-size: 2.5rem !important;
+  }
+  .hero-bottom{
+    padding: 0 !important;
+    font-size: 2.2vw !important;
   }
 }
