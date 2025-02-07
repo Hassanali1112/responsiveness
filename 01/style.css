@@ -103,6 +103,21 @@ small {
   font-size: 2.4rem;
 }
 
+/* ++++++++++++++++++++++++++++++++++++++++++++++++ task earn section +++++++++++++++++++++++++++++++++++++++++++ */
+.task_earn {
+  width: 100%;
+  height: 100vh;
+  background: url(https://cdn.prod.website-files.com/6459eb6341c323e922c56917/645a4bda49c0964e21bbdc0f_tab-bg.webp) no-repeat center;
+  background-size: cover;
+}
+.task_card{
+  position: relative;
+  border: 5px solid yellow;
+}
+.task_card img{
+  position: absolute;
+}
+
 
 
 
