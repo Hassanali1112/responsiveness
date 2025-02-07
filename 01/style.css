@@ -1,5 +1,5 @@
 * {
-  margin: 0;
+  margin: 0 ;
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
@@ -9,7 +9,7 @@
   color: white;
   width: 100%;
   height: 100vh;
-  /* background: url(./images/hero-banner.webp) no-repeat center; */
+  background: url(./images/hero-banner.webp) no-repeat center;
   background-size: cover;
 
 }
@@ -47,6 +47,9 @@ small {
 }
 
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++ career subject section +++++++++++++++++++++++++++++++ */
+.career_top{
+  height: 100vh;
+}
 
 .subject_headings{
   font-size: 2.3rem;
@@ -55,10 +58,50 @@ small {
   font-size: .9rem !important;
 }
 .details{
+
   font-size: .78rem;
 }
+.career_bottom{
+  background-color: #E6E8FF
+  
+}
+.career_bottom span{
+  text-align: start !important;
+}
 
+/* +++++++++++++++++++++++++++++++++++++++++++++++++ testimonial section ++++++++++++++++++++++++++++++++++++++++ */
+.shade{
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.555);
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.testimonials_section video{
+  width: 100% !important;
+  height: auto !important;
+}
 
+.play_btn{
+  padding: 2rem 2.3rem;
+  border-radius: 50%;
+  transition: all .3s;
+}
+.play_btn:hover{
+  background-color: #3F42D8;
+}
+.play_btn i{
+  font-size: .4rem;
+}
+.shade h6{
+  font-size: .7rem !important;
+}
+.testimonials_section h2{
+  font-size: 2.4rem;
+}
 
 
 
@@ -98,7 +141,9 @@ small {
   .main_heading {
     font-size: 3rem !important;
   }
-   
+     .testimonials_section h2{
+      font-size: 2rem !important;
+     }
 }
 
 @media screen and (max-width : 675px) {
